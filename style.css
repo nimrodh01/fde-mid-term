@@ -1,4 +1,6 @@
 /* Add your styles here */
+
+
 * {
     box-sizing: border-box;
 }
@@ -10,58 +12,90 @@ body {
     text-align: right;
 }
 
+
 /*******************************************************************/
 /* Style the header */
 .header-container {
-    position: relative;
     width: 100%;
     background: linear-gradient(to bottom, rgb(144, 144, 144) 85%, rgb(170, 170, 170));
-    font-size: 35px;
-    height: 105px;
-    color: white;
+    /* font-size: 35px; */
+    height: 104px;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 
 
 .container {
-    position: absolute;
-    left:500px;
-    width: 45%;
+    width: 900px;
+    margin: 0 auto;
 }
 
+
+
+
 header {
-    position:relative;
-    right: 0;
+    position: relative;
+    font-size: 35px;
     width: 100%;
-    margin: 0 auto;
     text-align: left;
+    color: white;
+    font-weight: bold;
 }
+
+#english {
+    position: absolute;
+    left: 180px;
+    top: 22px;
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+#english:hover {
+    color: rgb(21, 21, 163);
+    text-decoration-line: underline;
+}
+
+#search {
+    position: absolute;
+    width: 125px;
+    border-radius: 0 15px 0 0;
+    padding: 1px;
+    left: 36px;
+    top: 18px;
+}
+
+.search-button{position: absolute;
+    top: 20px;
+    left:20px;
+}
+
 
 .logo {
     position: absolute;
     top: 32px;
-    right: -75px;
+    right: -9px;
 }
 
 nav {
-    width: 100%;
-    top:50px;
+    /* width: 100%; */
+    top: 50px;
+    left: 15px;
     position: relative;
 
 }
 
 nav>ul {
-margin: 0%;
-margin:0;
-list-style: none;
-   
+    margin: 0px;
+    list-style: none;
+
 }
 
 .dropdown {
     display: inline-block;
     position: relative;
     border-right: 2px solid rgba(180, 180, 180, 0.788);
-    padding-left:3px;
+    padding-left: 11px;
     padding-right: 13px;
     margin-bottom: 3px;
     z-index: 999;
@@ -99,10 +133,10 @@ list-style: none;
     border-top: solid 1px #ccc;
 }
 
-.dropdown>a:hover,
+/* .dropdown>a:hover, */
 .dropdown-content>a:hover,
-.dropdown:hover>a {
-    background-color: rgb(144, 144, 144);
+.dropdown:hover>a   {
+    background-color: rgb(170, 170, 170);
     color: blue;
     text-decoration: underline;
 }
@@ -114,48 +148,134 @@ list-style: none;
 
 
 /*###################################################*/
- .main-container{ 
-    width: 50%;
-    margin: auto;}
 
-
-.row::after {
+.upper-row::after,
+.footer-row::after {
     content: "";
     clear: both;
     display: table;
 }
 
 
-.row{margin-top:25px}
+.upper-row {
+    margin-top: 30px;
+}
 
+.lower-row {
+    margin-top: 20px;
+}
 
-
-.column{
-    width:293px;
-    height:355px;
-    float:right;
-    margin:5px;
+.column {
+    width: 290px;
+    height: 355px;
+    margin-left: 9px;
+    float: right;
     position: relative;
-    } 
+}
 
-    .center-images{    border-radius: 0 0 25px 0;
-    }
+.center-images {
+    border-radius: 0 0 25px 0;
+    width: 290px;
+}
 
-    .text-over-pic{
-        position:absolute;
-        font-size:13px;
-        color:white;
-        width:247px;
-        height: 95px;
-        bottom: 6px;
-        right:7px;
-        background:rgba(144,144,144, 0.9);
-        border-radius: 0 0 25px 0;
-        /* margin:0; */
-        
-    }
+.text-over-pic {
+    position: absolute;
+    font-size: 13px;
+    color: white;
+    width: 247px;
+    height: 95px;
+    bottom: 6px;
+    right: 7px;
+    background: rgba(144, 144, 144, 0.95);
+    border-radius: 0 0 25px 0;
 
-    .text-over-pic>p{margin:0;
-        padding-right: 8px;}
-    .text-over-pic>h3{margin:2px;
-        padding-right: 8px;}
+}
+
+.read-more{
+    position: absolute;
+    left:10px;
+    bottom: 2px;
+}
+
+.read-more>a{
+    color:white;
+}
+
+.text-over-pic>p {
+    margin: 0;
+    padding-right: 8px;
+}
+
+.text-over-pic>h3 {
+    margin: 2px;
+    padding-right: 8px;
+}
+
+.cube {
+    border-radius: 0 25px 0 0;
+    width: 290px;
+    height: 216px;
+    float: right;
+    margin-left: 9px;
+    /* position: relative; */
+    text-align: center;
+    border: 1px solid rgba(170, 170, 170, 0.3);
+    background-image:   url(Images/small_cube_bg.png);
+    /* background: linear-gradient(to bottom, rgb(255, 255, 255144) 50%, rgb(236, 236, 236)); */
+
+
+}
+
+#bannerHeader {
+    padding-top: 10px;
+    color:#575757;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 20px;
+}
+
+#map-image{padding-right:180px}
+
+
+
+footer {
+    position: fixed;
+    background: linear-gradient(to top, rgb(144, 144, 144) 50%, rgb(170, 170, 170));
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: white;
+    text-align: center;
+
+}
+
+.footer-item, .footer-item-red {
+    float: right;
+    margin-top: 15px;
+    border-left-color: 1px black;
+  }
+
+
+.footer-item>a {
+    font-size: 15px;
+    color: white;
+    text-decoration-line: none;
+    margin:6px;
+   
+ }
+
+
+.footer-item-red>a {
+    font-size: 15px;
+    color: red;
+    text-decoration-line: none;
+    margin:6px;
+  
+}
+
+
+.footer-item>a:hover, .footer-item-red:hover, .read-more>a:hover {
+    color: blue;
+    text-decoration: underline;
+}
