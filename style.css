@@ -243,11 +243,15 @@ nav>ul {
     margin-right:22px;
 }
 
-.region-wraper>a{
+.region-wraper>a, #more-info{
     color:#72716d;
     font-size: 13px;
-   
 }
+
+#more-info{float:left;
+padding-left: 25px;}
+ 
+span{margin-left:12px;}
 
 .float-map{
     float: left;
@@ -260,17 +264,16 @@ footer {
     position: fixed;
     background: linear-gradient(to top, rgb(144, 144, 144) 50%, rgb(170, 170, 170));
     bottom: 0;
+    right:0;
     width: 100%;
     height: 40px;
     color: white;
     text-align: center;
-
-}
+    }
 
 .footer-item, .footer-item-red {
     float: right;
     margin-top: 15px;
-    border-left-color: 1px black;
   }
 
 
@@ -278,7 +281,9 @@ footer {
     font-size: 15px;
     color: white;
     text-decoration-line: none;
-    margin:6px;
+    margin:5px;
+    padding-left:4px;
+    border-left: solid 2px #fff;
    
  }
 
@@ -292,7 +297,11 @@ footer {
 }
 
 
-.footer-item>a:hover, .footer-item-red:hover, .read-more>a:hover {
+.footer-item>a:hover, 
+.footer-item-red:hover, 
+.read-more>a:hover,
+span:hover
+{
     color: blue;
     text-decoration: underline;
 }
