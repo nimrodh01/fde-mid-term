@@ -12,10 +12,12 @@
 	<div class="header-container">
 		<div class="container">
 			<header>
-				<a id="english" href="#">English</a>
-				<input id="search" id=search type="text" name="search" placeholder="רשום מילת חיפוש">
-				<img class="search-button" src="Images/search_button.png">
-				<a href="#">
+				<div search-bar>
+					<a id="english" href="#">English</a>
+					<input id="search" id=search type="text" name="search" placeholder="רשום מילת חיפוש">
+					<img class="search-button" src="Images/search_button.png">
+					<a href="#">
+				</div>	
 					<img class="logo" src="Images/paz_logo.png">
 				</a>
 				<nav>
@@ -142,14 +144,14 @@
 				<br>
 				<img src="Images/paz_250x110059890678.jpg">
 				<br>
-				<a href="#">לפרטים נוספים></a>
+				<p><a href="#">לפרטים נוספים></a></p>
 			</div>
 		</div>
 		<div class="cube">
 			<div id="bannerHeader">yellow click&pick;
 				</div>
 			<br>
-			<img src="Images/paz_250x110103131473.jpg">
+			<img id="var-image" src="Images/paz_250x110103131473.jpg">
 			<br>
 			<a href="#">לפרטים נוספים></a>
 		</div>
@@ -203,6 +205,6 @@
 
 
 
-</body>
+</body onload="myFunction()">
 
 </html>

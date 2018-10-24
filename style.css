@@ -29,9 +29,11 @@ body {
     width: 900px;
     margin: 0 auto;
 }
-
-
-
+/* 
+.search-bar{
+    position: absolute;
+}
+ */
 
 header {
     position: relative;
@@ -219,7 +221,7 @@ nav>ul {
     margin-left: 9px;
     /* position: relative; */
     text-align: center;
-    border: 1px solid rgba(170, 170, 170, 0.3);
+    /* border: 1px solid rgba(170, 170, 170, 0.3); */
     background-image:   url(Images/small_cube_bg.png);
     /* background: linear-gradient(to bottom, rgb(255, 255, 255144) 50%, rgb(236, 236, 236)); */
 
