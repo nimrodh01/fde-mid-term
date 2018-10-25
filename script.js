@@ -1,15 +1,17 @@
-// document.getElementById("var-image").onload = function() {myFunction()};
+var currentPos = 0;
+
+var images = ["Images/paz_250x110103131473.jpg",
+"Images/paz_250x110059890678.jpg",
+ "Images/250X110668568400.jpg"];
 
 
-// function myFunction()
-// {
-// setInterval(chgPic(), 7000);
-// }
+function volgendefoto() {
 
+    var image = document.getElementById("var-image");
+    ++currentPos
+    image.src = images[currentPos % 3];
 
-// function chgPic()
-// {
-// // document.getElementById("var-image").innerHTML
-// alert(document.getElementById("var-image").files[0].name);
+    //alert(currentPos);
+}
 
-// }
+setInterval(volgendefoto, 3000);
