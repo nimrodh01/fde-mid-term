@@ -8,6 +8,7 @@
 body {
     font-family: "Arial (Hebrow)", Helvetica, sans-serif;
     margin: 0;
+    border: 0;
     direction: rtl;
     text-align: right;
 }
@@ -92,6 +93,24 @@ nav>ul {
     list-style: none;
 
 }
+
+.home {
+    /* position: relative; */
+    display: inline-block;
+    width:17px;
+    height: 17px;
+    background: url("Images/menu_home_blue1.png") no-repeat bottom;
+}
+
+
+.dropdown_home {
+    display: inline-block;
+    position: relative;
+    margin-left: 13px;
+    margin-top: 5px;
+    }
+
+
 
 .dropdown {
     display: inline-block;
@@ -204,6 +223,8 @@ nav>ul {
 
 .read-more>a{
     color:white;
+    padding-left: 15px;
+    background: url("Images/read_more_white.png") no-repeat left center;
 }
 
 .text-over-pic>p {
@@ -243,15 +264,22 @@ nav>ul {
     margin-right:22px;
 }
 
-.region-wraper>a, #more-info{
+.region-wraper>a, .more-info{
     color:#72716d;
     font-size: 13px;
+    padding-left: 15px;
+    background:url("Images/read_more_yellow.png") no-repeat left center;
+
+
 }
 
-#more-info{float:left;
-padding-left: 25px;}
- 
-span{margin-left:12px;}
+.more-info{ 
+    position: relative;
+    right:75px;
+    top: 18px;
+}
+
+/* span{margin-left:12px;} */
 
 .float-map{
     float: left;
@@ -299,7 +327,22 @@ footer {
 
 .footer-item>a:hover, 
 .footer-item-red:hover, 
-.read-more>a:hover,
+span:hover
+{
+    color:#005ca0;
+    text-decoration: underline;
+}
+
+.region-wraper>a:hover,
+.more-info:hover,
+.read-more>a:hover
+{
+    background: url("Images/read_more_blue.png") no-repeat left center;
+    color:#005ca0;
+    text-decoration: underline;
+}
+
+
 span:hover
 {
     color:#005ca0;
