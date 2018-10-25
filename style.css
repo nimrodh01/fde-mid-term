@@ -375,9 +375,8 @@ span:hover
     padding-right: 12px;
     font-size: 13px;
     margin-bottom: 4px;
-    /* border-top: #5c5c5c; */
+    border-top: solid #ccc 1px;
     line-height: 32px;
-    border:black
     background: linear-gradient(to bottom, rgb(254, 254, 254) 60%, rgb(204, 204, 204));
 }
 
