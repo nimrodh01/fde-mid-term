@@ -237,6 +237,8 @@ nav>ul {
     padding-right: 8px;
 }
 
+
+
 .cube {
     border-radius: 0 25px 0 0;
     width: 290px;
@@ -347,4 +349,44 @@ span:hover
 {
     color:#005ca0;
     text-decoration: underline;
+}
+
+
+
+
+/********************************************************/
+
+.right-menu{
+    float: right;
+    width: 122px;
+    margin-left: 22px;
+}
+
+.right-menu li{
+    list-style: none;
+     border-top: #5c5c5c;
+}
+
+.right-menu a{
+    display: block;
+    width: 110px;
+    height: 36px;
+    /* overflow: hidden; */
+    padding-right: 12px;
+    font-size: 13px;
+    margin-bottom: 4px;
+    /* border-top: #5c5c5c; */
+    line-height: 32px;
+    border:black
+    background: linear-gradient(to bottom, rgb(254, 254, 254) 60%, rgb(204, 204, 204));
+}
+
+
+.content{
+
+}
+
+
+.side-cubes{
+
 }
