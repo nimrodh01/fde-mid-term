@@ -60,9 +60,8 @@ header {
     text-decoration: none;
 }
 
-#english:hover {
-    color: #005ca0;
-    text-decoration-line: underline;
+
+
 
 
 #search {
@@ -88,13 +87,13 @@ header {
     /* right: -9px; */
 }
 
-nav {
+/* nav {
     width: 100%;
-    /* top: 50px; */
-    /* left: 15px; */
+    top: 50px;
+    left: 15px;
     position: relative;
 
-}
+} */
 
 nav>ul {
     margin: 0px auto;
@@ -231,9 +230,8 @@ nav>ul {
 /********************************************************/
 .cu-container {
     width: 900px;
-    margin: 0 auto;
+    margin: 32px auto;
     margin-top: 32px;
-    margin-bottom: 100px;
 }
 
 
@@ -420,14 +418,15 @@ footer {
 
 }
 
-
 .footer-item>a:hover,
 .footer-item-red:hover,
-/*span:hover  */
     {
     color: #005ca0;
     text-decoration: underline;
 }
+
+
+
 
 
 .region-wraper>a:hover,
@@ -437,6 +436,13 @@ footer {
     color: #005ca0;
     text-decoration: underline;
 }
+
+#english:hover {
+    color: #005ca0;
+    text-decoration: underline;
+}
+
+
 
 /* 
 
