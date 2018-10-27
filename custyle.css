@@ -60,6 +60,9 @@ header {
     text-decoration: none;
 }
 
+#english:hover {
+    color: #005ca0;
+    text-decoration-line: underline;
 
 
 #search {
@@ -427,7 +430,6 @@ footer {
 }
 
 
-#english:hover,
 .region-wraper>a:hover,
 .more-info:hover,
 .read-more>a:hover {
