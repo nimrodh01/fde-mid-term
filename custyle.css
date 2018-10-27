@@ -32,8 +32,8 @@ h1 {
 
 
 .container {
-    width: 900px;
-    margin: 0 auto;
+    /* width: 900px;
+    margin: 0 auto; */
 }
 
 /* 
@@ -304,7 +304,6 @@ fieldset {
     width: 245px;
     margin: 0 auto;
     border: 0px;
-    display: block;
 }
 
 
@@ -320,10 +319,18 @@ width: 100%;
 label {
     display: inline-block;
     width: 74px;
+
+    display: inline-block;
+    float: right;
+    clear: right;
+    /* width: 250px; */
+    text-align: right;
 }
 
 
 .inputField {
+    float: left;
+    display: inline-block;
     width: 168px;
     height: 22px;
     padding: 3px;
