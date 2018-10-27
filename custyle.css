@@ -228,8 +228,7 @@ nav>ul {
 /********************************************************/
 .cu-container {
     width: 900px;
-    margin: 0 auto;
-    margin-top: 32px;
+    margin: 32px  auto 32px auto;
 }
 
 
