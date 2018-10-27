@@ -32,8 +32,17 @@ h1 {
 
 
 .container {
-    width: 900px;
+    /* width: 900px;
+    margin: 0 auto; */
+
+
+    width: 100%;
+    min-width: 400px;
+    max-width:900px;
+    height: 100%;
     margin: 0 auto;
+    position: relative;
+    top: 0%;
 }
 
 /* 
@@ -308,8 +317,9 @@ fieldset {
 
 
 .set{
-/* display: inline-block; */
+display: inline-block;
 margin:5px 0;
+width: 100%;
 }
 
 
@@ -318,17 +328,15 @@ margin:5px 0;
 label {
     display: inline-block;
     width: 74px;
-    text-align: right;
 }
 
 
 .inputField {
-    /* box-align: left; */
     width: 168px;
     height: 22px;
     padding: 3px;
-    border: 1px solid #808992
-}
+    border: 1px solid #808992;
+    }
 
 .text-area{
    margin: 0 auto;
