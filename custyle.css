@@ -309,7 +309,7 @@ fieldset {
 
 .set{
 display: inline-block;
-margin:5px 0;
+margin:1px 0;
 width: 100%;
 }
 
@@ -317,20 +317,17 @@ width: 100%;
 
 
 label {
-    display: inline-block;
+    /* display: inline-block; */
     width: 74px;
-
-    display: inline-block;
     float: right;
     clear: right;
-    /* width: 250px; */
     text-align: right;
 }
 
 
 .inputField {
     float: left;
-    display: inline-block;
+    /* display: inline-block; */
     width: 168px;
     height: 22px;
     padding: 3px;
